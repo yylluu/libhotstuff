@@ -17,6 +17,8 @@
 #ifndef _HOTSTUFF_CLIENT_H
 #define _HOTSTUFF_CLIENT_H
 
+#define HOTSTUFF_CMD_REQSIZE 256
+
 #include "salticidae/msg.h"
 #include "hotstuff/type.h"
 #include "hotstuff/entity.h"
