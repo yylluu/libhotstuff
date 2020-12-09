@@ -45,6 +45,8 @@ Step 2 - Generate the Deployment Setup
     between your work computer and replica machines, whereas the local IP is
     the address used in your inter-replica network infrastructure, with which
     replicas establish TCP connections with others.
+    For cross-regions scenarios where replicas are in different LANs, replace the
+    local IP by the external IP.
   - ``clients.txt``: each line is a single external IP.
   - The same IP can appear multiple times in both files. In this case, you will
     share the same machine among different processes (not recommended for
