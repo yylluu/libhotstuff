@@ -96,4 +96,4 @@ TODO
 - Limit the async events (improve robustness)
 - Persistent protocol state (recovery?)
 
-.. _here: https://github.com/hot-stuff/libhotstuff/tree/master/scripts/deploy
+.. _here: https://github.com/yylluu/libhotstuff/tree/master/scripts/deploy
